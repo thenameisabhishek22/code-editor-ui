@@ -1,0 +1,88 @@
+.editor-container {
+  display: flex;
+  flex-grow: 1;
+  border-left: 1px solid #ddd; 
+}
+
+.editor {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #ddd; 
+}
+
+.editor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ddd; 
+}
+
+.editor-header input {
+  border: none;
+  background: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.editor-header button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.editor textarea {
+  flex-grow: 1;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 14px;
+  outline: none; 
+  border-bottom: 1px solid #ddd;
+}
+
+.output {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-left: 1px solid #ddd; 
+}
+
+.output p {
+  flex-grow: 1;
+  border-bottom: 1px solid #ddd;
+}
+
+.output-divider {
+  border-top: 1px solid #ddd; 
+  margin-top: 10px;
+}
+
+.left-pane {
+  width: 60px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #ddd; 
+}
+
+.left-pane ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left-pane li {
+  margin-bottom: 20px;
+}
+
+.left-pane img {
+  width: 40px;
+  height: 40px;
+}
